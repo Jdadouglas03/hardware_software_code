@@ -1,0 +1,89 @@
+Last login: Thu Jan  9 13:11:21 on ttys000
+gfsfellow6@GFSs-MacBook-Air ~ % pwd
+/Users/gfsfellow6
+gfsfellow6@GFSs-MacBook-Air ~ % ls
+Applications
+Creative Cloud Files
+Creative Cloud Files SSanchez29@schools.nyc.gov 5f8d08d27457428027f3a473a3c2384fe1e1ecfedad5086818a48962f362f813
+Creative Cloud Files sheridancole6@gmail.com 27dc06232cdd48b446e78f64c4518fc6b49156e8e3fa5d68886e8cd92c69619f
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+hardware_software_code
+school
+gfsfellow6@GFSs-MacBook-Air ~ % cd Documents
+gfsfellow6@GFSs-MacBook-Air Documents % ls
+Adobe
+Blackmagic Design
+Come to mommy_rafaelguzman_1draft.fdx
+Come to mommy_rafaelguzman_1draft.pdf
+FCP Translation Results 2022-06-08-20-10.txt
+FCP Translation Results 2022-06-13-23-00.txt
+FCP Translation Results 2022-06-13-23-02.txt
+FCP Translation Results 2022-06-13-23-04.txt
+Guilt.fdx
+Guilt.pdf
+Mess It Up .mp4
+Phase1_FailurBrand.fdx
+Pulp Fiction.fdx
+School
+a message from skneio.fdx
+rock-on-aussie-gfs-8-1-23-3-40.fdx
+rock-on-aussie-gfs-8-1-23-3-40.pdf
+rock-on-aussie-gfs-8-1-23-4-50.fdx
+rock-on-aussie-gfs-8-1-23-4-50.pdf
+rock-on-aussie-gfs-8-1-23-4-55.pdf
+gfsfellow6@GFSs-MacBook-Air Documents % cd School
+gfsfellow6@GFSs-MacBook-Air School % mkdir hardware_software_code
+mkdir: hardware_software_code: File exists
+gfsfellow6@GFSs-MacBook-Air School % cd hardware_software_code
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git init
+Reinitialized existing Git repository in /Users/gfsfellow6/Documents/School/hardware_software_code/.git/
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % pwd
+/Users/gfsfellow6/Documents/School/hardware_software_code
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+Terminal Saved Output.txt	lab03.py
+lab02.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % cd lab03.py
+cd: not a directory: lab03.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+Terminal Saved Output.txt	lab03.py
+lab02.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+lab02.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % cd lab03.py
+cd: not a directory: lab03.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git init
+Reinitialized existing Git repository in /Users/gfsfellow6/Documents/School/hardware_software_code/.git/
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lad03.py
+/Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/gfsfellow6/Documents/School/hardware_software_code/lad03.py': [Errno 2] No such file or directory
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+lab02.py	lab03.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab03.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % cd lab03.py
+cd: not a directory: lab03.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+lab02.py	lab03.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab03.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab03.py
+Welcome to my conversation program
+Do you like coding in python? Answer yes or no
+yes
+That's good - the United States needs more coders!!
+Goodbye
+Thanks for chatting with me
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+lab02.py	lab03.py	lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % 
