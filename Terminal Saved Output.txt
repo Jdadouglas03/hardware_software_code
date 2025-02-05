@@ -1,0 +1,66 @@
+Last login: Wed Jan 15 14:16:18 on ttys000
+gfsfellow6@GFSs-MacBook-Air ~ % pws
+zsh: command not found: pws
+gfsfellow6@GFSs-MacBook-Air ~ % pwd
+/Users/gfsfellow6
+gfsfellow6@GFSs-MacBook-Air ~ % ls
+Applications
+Creative Cloud Files
+Creative Cloud Files SSanchez29@schools.nyc.gov 5f8d08d27457428027f3a473a3c2384fe1e1ecfedad5086818a48962f362f813
+Creative Cloud Files sheridancole6@gmail.com 27dc06232cdd48b446e78f64c4518fc6b49156e8e3fa5d68886e8cd92c69619f
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+hardware_software_code
+school
+gfsfellow6@GFSs-MacBook-Air ~ % cd Documents
+gfsfellow6@GFSs-MacBook-Air Documents % ls
+Adobe
+Blackmagic Design
+Come to mommy_rafaelguzman_1draft.fdx
+Come to mommy_rafaelguzman_1draft.pdf
+FCP Translation Results 2022-06-08-20-10.txt
+FCP Translation Results 2022-06-13-23-00.txt
+FCP Translation Results 2022-06-13-23-02.txt
+FCP Translation Results 2022-06-13-23-04.txt
+Guilt.fdx
+Guilt.pdf
+Mess It Up .mp4
+Phase1_FailurBrand.fdx
+Pulp Fiction.fdx
+School
+a message from skneio.fdx
+rock-on-aussie-gfs-8-1-23-3-40.fdx
+rock-on-aussie-gfs-8-1-23-3-40.pdf
+rock-on-aussie-gfs-8-1-23-4-50.fdx
+rock-on-aussie-gfs-8-1-23-4-50.pdf
+rock-on-aussie-gfs-8-1-23-4-55.pdf
+gfsfellow6@GFSs-MacBook-Air Documents % School
+zsh: command not found: School
+gfsfellow6@GFSs-MacBook-Air Documents % cd School
+gfsfellow6@GFSs-MacBook-Air School % ls                    
+hardware_software_code
+gfsfellow6@GFSs-MacBook-Air School % cd hardware_software_code
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+(JD)Project01.py			lab03.py
+JD_Project01.py				lab04.py
+Terminal Saved Output lab03:04.txt	lab05.py
+Terminal Saved Output(1:14:25).txt	lab06.py
+lab02 copy.py				lab07.py
+lab02.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab06.py
+What is your name?jda
+HiJda
+Welcome to my conversation program
+Glad to have you in Hardware and Software
+what is your name?jda
+HiJda
+Welcome to my conversation program
+Glad to have you in Hardware and Software
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab06.py
+What is your name?

@@ -1,0 +1,289 @@
+Last login: Sat Jan 11 14:14:20 on ttys000
+gfsfellow6@GFSs-MacBook-Air ~ % pwd
+/Users/gfsfellow6
+gfsfellow6@GFSs-MacBook-Air ~ % ls
+Applications
+Creative Cloud Files
+Creative Cloud Files SSanchez29@schools.nyc.gov 5f8d08d27457428027f3a473a3c2384fe1e1ecfedad5086818a48962f362f813
+Creative Cloud Files sheridancole6@gmail.com 27dc06232cdd48b446e78f64c4518fc6b49156e8e3fa5d68886e8cd92c69619f
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+hardware_software_code
+school
+gfsfellow6@GFSs-MacBook-Air ~ % cd Documents
+gfsfellow6@GFSs-MacBook-Air Documents % cd School
+gfsfellow6@GFSs-MacBook-Air School % cd hardware_software_code
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git init
+Reinitialized existing Git repository in /Users/gfsfellow6/Documents/School/hardware_software_code/.git/
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+(JD)Project01.py			lab02.py
+Terminal Saved Output lab03:04.txt	lab03.py
+lab02 copy.py				lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 (JD)Project01.py
+zsh: no matches found: (JD)Project01.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % pwd
+/Users/gfsfellow6/Documents/School/hardware_software_code
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 (JD)Project01.py
+zsh: no matches found: (JD)Project01.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+(JD)Project01.py			lab02.py
+Terminal Saved Output lab03:04.txt	lab03.py
+lab02 copy.py				lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % LS
+(JD)Project01.py			lab02.py
+JD_Project01.py				lab03.py
+Terminal Saved Output lab03:04.txt	lab04.py
+lab02 copy.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+(JD)Project01.py			lab02.py
+JD_Project01.py				lab03.py
+Terminal Saved Output lab03:04.txt	lab04.py
+lab02 copy.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like you name and education history
+What is your name?Jda Douglas
+What college do you go to?guttman
+What highschool did you go to?kipp
+ Hello Jda Douglas
+You go to guttman
+But you went to highschool at kipp
+We want to know if you like programming!
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like you name and education history
+What is your name?
+What college do you go to?
+What highschool did you go to?ddee
+ Hello 
+You go to 
+But you went to highschool at ddee
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like you name and education history
+What is your name?jda
+What college do you go to?guttman
+What highschool did you go to?kipp
+ Hello jda
+You go to guttman
+But you went to highschool at kipp
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git init
+Reinitialized existing Git repository in /Users/gfsfellow6/Documents/School/hardware_software_code/.git/
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % add .
+zsh: command not found: add
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % add .
+zsh: command not found: add
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git add .
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git commit -m "first commit"
+[main (root-commit) 85f78c0] first commit
+ Committer: GFS Fellow 6 <gfsfellow6@GFSs-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 168 insertions(+)
+ create mode 100644 (JD)Project01.py
+ create mode 100644 .DS_Store
+ create mode 100644 JD_Project01.py
+ create mode 100644 Terminal Saved Output lab03:04.txt
+ create mode 100644 lab02 copy.py
+ create mode 100644 lab02.py
+ create mode 100644 lab03.py
+ create mode 100644 lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git branch -M main
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git remote add origin https://github.com/Jdadouglas03/hardware_software_code.git
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git push -u origin main
+Username for 'https://github.com': Jdadouglas03
+Password for 'https://Jdadouglas03@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Jdadouglas03/hardware_software_code.git/'
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git push -u origin main
+Username for 'https://github.com': jdadouglas03
+Password for 'https://jdadouglas03@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Jdadouglas03/hardware_software_code.git/'
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git push -u origin main
+Username for 'https://github.com': jdadouglas03
+Password for 'https://jdadouglas03@github.com': 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.60 KiB | 2.60 MiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Jdadouglas03/hardware_software_code.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like your name and education history
+What is your name?Jda
+What college do you go to?Guttman
+What highschool did you go to?kipp
+ Hello Jda
+You go to college atGuttman
+But you went to highschool at kipp
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like your name and education history
+What is your name?jda
+What college do you go to?Guttman
+What highschool did you go to?kipp
+ Hello jda.
+You go to college at Guttman
+But you went to highschool at kipp
+Thank you for answering my questions!
+Hey! one last question, which institution you think is the most fun?guttman
+which institution do you think is the least fun?uhh
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+  File "/Users/gfsfellow6/Documents/School/hardware_software_code/JD_Project01.py", line 12
+    	print("So... you think {} is more fun than {}") .format(institution_morefun, institution_lessfun))
+    	                                                                                                 ^
+SyntaxError: unmatched ')'
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like your name and education history
+What is your name?jda
+What college do you go to?KIPP
+What highschool did you go to?gg
+ Hello jda.
+You go to college at KIPP
+But you went to highschool at gg
+Thank you for answering my questions!
+Hey! one last question, which institution you think is the most fun?guttman
+which institution do you think is the least fun?gg
+So... you think guttman is more fun than gg
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like your name and education history
+What is your name?jda
+What college do you go to?guttman
+What highschool did you go to?kipp
+ Hello jda.
+You go to college at guttman
+But you went to highschool at kipp
+Thank you for answering my questions!
+Hey! one last question, which institution you think is the most fun?docm
+which institution do you think is the least fun?fnvf
+So... you think docm is more fun than fnvf
+Thank you so much for your time. Goodbye!
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 JD_Project01.py
+This program will ask you a series of questions like your name and education history
+What is your name?jda
+What college do you go to?gutt
+What highschool did you go to?kipp
+ Hello jda, so you went to highschool at kipp and you go to college at gutt.
+Thank you for answering my questions!
+Hey! one last question, which institution you think is the most fun?guttt
+which institution do you think is the least fun?gg
+So... you think guttt is more fun than gg
+Thank you so much for your time. Goodbye!
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git add .
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git commit -m added
+[main 15a3e7e] added
+ Committer: GFS Fellow 6 <gfsfellow6@GFSs-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 626 bytes | 626.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Jdadouglas03/hardware_software_code.git
+   85f78c0..15a3e7e  main -> main
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % ls
+(JD)Project01.py			lab02.py
+JD_Project01.py				lab03.py
+Terminal Saved Output lab03:04.txt	lab04.py
+lab02 copy.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab04.py
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab04.py
+The freezing point of water in Fahrenheit is:32.0
+The absolute freezing point og water in celsius is:-273.15
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab04.py
+The freezing point of water in Fahrenheit is:32.0
+The absolute freezing point og water in celsius is:-273.15
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab05.py
+Traceback (most recent call last):
+  File "/Users/gfsfellow6/Documents/School/hardware_software_code/lab05.py", line 11, in <module>
+    if name == "__main__":
+       ^^^^
+NameError: name 'name' is not defined
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab05.py
+Traceback (most recent call last):
+  File "/Users/gfsfellow6/Documents/School/hardware_software_code/lab05.py", line 11, in <module>
+    if name == "__main__":
+       ^^^^
+NameError: name 'name' is not defined
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab05.py
+Traceback (most recent call last):
+  File "/Users/gfsfellow6/Documents/School/hardware_software_code/lab05.py", line 11, in <module>
+    if name == "__main__":
+       ^^^^
+NameError: name 'name' is not defined
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab05.py
+Traceback (most recent call last):
+  File "/Users/gfsfellow6/Documents/School/hardware_software_code/lab05.py", line 11, in <module>
+    if name == "__main__":
+       ^^^^
+NameError: name 'name' is not defined
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab05.py
+Traceback (most recent call last):
+  File "/Users/gfsfellow6/Documents/School/hardware_software_code/lab05.py", line 12, in <module>
+    if name == "__main__":
+       ^^^^
+NameError: name 'name' is not defined
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab05.py
+Traceback (most recent call last):
+  File "/Users/gfsfellow6/Documents/School/hardware_software_code/lab05.py", line 12, in <module>
+    if name == "__main__":
+       ^^^^
+NameError: name 'name' is not defined
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab05.py
+15
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab06.PY
+What is your name?jda
+HiJda
+Welcome to my conversation program
+Glad to have you in Hardware and Software
+what is your name?bhgd
+HiBhgd
+Welcome to my conversation program
+Glad to have you in Hardware and Software
+gfsfellow6@GFSs-MacBook-Air hardware_software_code % python3 lab06.PY
+What is your name?jda

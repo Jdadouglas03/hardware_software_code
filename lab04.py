@@ -12,3 +12,6 @@ def main():
 
 	absolute_zero = kelvins_to_celsius(temp)
 	print(absolute_zero)
+
+if __name__ == "__main__":
+	main()
